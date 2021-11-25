@@ -179,7 +179,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%; /* value là % là % chiều ngang của chính nó */
-    background: url(/assets/images/slider/slider_1.jpg) top center / cover no-repeat ;
+    background: url(./assets/images/slider/slider_1.jpg) top center / cover no-repeat ;
 }
 
 #slider .text-contend {
