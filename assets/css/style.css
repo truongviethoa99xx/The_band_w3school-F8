@@ -95,7 +95,6 @@ html {
     left: 0px;
     right: 0px;
     z-index: 1; /* khi thêm thuộc tính position thì header có thể nổi lên hoặc bị chìm xuống*/
-    overflow: hidden;
 }
 
 #nav {
@@ -155,6 +154,10 @@ html {
     padding: 0px 24px;
 }
 
+#header .mobile-mobile-btn {
+    display: none;
+}
+
 #header .menu-icon,
 #header .icon-search {
     color: #fff;
@@ -179,7 +182,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%; /* value là % là % chiều ngang của chính nó */
-    background: url(./assets/images/slider/slider_1.jpg) top center / cover no-repeat ;
+    background: url(/assets/images/slider/slider_1.jpg) top center / cover no-repeat ;
 }
 
 #slider .text-contend {
@@ -489,20 +492,5 @@ html {
     to {
         opacity: 1;
         transform: translateY(0);
-    }
-}
-
-/* Reponsive mobile */
-@media (max-width: 740px) {
-    #nav > li {
-        display: block;
-    }
-
-    #header .nav-search {
-        display: none;
-    }
-
-    #slider .text-contend {
-        display: none;
     }
 }

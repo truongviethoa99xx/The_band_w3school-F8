@@ -1,0 +1,46 @@
+/* Reponsive mobile */
+@media (max-width: 740px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #header .nav-search {
+        display: none;
+    }
+
+    #header .mobile-mobile-btn {
+        display: block;
+    }
+
+    #header .mobile-mobile-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav li a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #slider .text-contend {
+        display: none;
+    }
+}
