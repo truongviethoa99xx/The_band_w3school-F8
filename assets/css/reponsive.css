@@ -1,5 +1,12 @@
 /* Reponsive mobile */
 @media (max-width: 740px) {
+
+
+    .col-s-full, .s-full-width {
+        width: 100% !important
+    }
+
+
     #header {
         overflow: hidden;
     }
@@ -42,5 +49,38 @@
 
     #slider .text-contend {
         display: none;
+    }
+
+    #tour .place-item {
+        margin-bottom: 16px;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+}
+
+/* Reponsive mobile + tablet*/
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .social-list {
+        font-size: 48px;
+    }
+
+    .social-list a {
+        margin: 8px;
+    }
+
+    #footer .copyright {
+        padding: 12px 0;
+        display: inline-block;
     }
 }

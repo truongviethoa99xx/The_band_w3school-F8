@@ -75,6 +75,7 @@ html {
     text-decoration: none;
     display: inline-block;
     border: none;
+    text-align: center;
  }
  
  .btn:hover {
@@ -182,10 +183,10 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%; /* value là % là % chiều ngang của chính nó */
-    background: url(/assets/images/slider/slider_1.jpg) top center / cover no-repeat ;
+    background: url(../images/slider/slider_1.jpg) top center / cover no-repeat ;
 }
 
-#slider .text-contend {
+#slider .text-content {
     position: absolute;
     color: #fff;
     bottom: 47px;
@@ -201,12 +202,12 @@ html {
     margin-top: 25px;
 }
 /* End slider CSS */
-/* Start contend CSS */
-/* #contend {
+/* Start content CSS */
+/* #content {
 
 } */
 
-#contend .contend-section {
+#content .content-section {
     width: 800px;
     max-width: 100%;
     margin-left: auto;
@@ -217,7 +218,7 @@ html {
     padding-right: 16px;
 }
 
-#contend .section-heading {
+#content .section-heading {
     text-align: center;
     font-size: 30px;
     font-weight: 400;
@@ -225,7 +226,7 @@ html {
     letter-spacing: 4px;
 }
 
-#contend .section-sub-heading {
+#content .section-sub-heading {
     text-align: center;
     font-style: italic;
     font-size: 15px;
@@ -234,14 +235,14 @@ html {
     opacity: 0.6;
 }
 
-#contend .about-text {
+#content .about-text {
     font-size: 15px;
     line-height: 1.5;
     text-align: justify;
     margin-bottom: 15px;
 }
 
-#contend .members-list {
+#content .members-list {
     padding: 32px 0;
     /* khi dùng float cho thẻ con thì thẻ cha bị co lại */
     /* overflow: hidden; */
@@ -252,13 +253,13 @@ html {
     margin: 15px 0;
 }
 
-#contend .member-img {
+#content .member-img {
     width: 60%;
     border-radius: 5px;
 }
 
 /* TOUR SECTION */
-#contend .tour-section {
+#content .tour-section {
     background-color: #000;
 }
 
@@ -355,7 +356,7 @@ html {
     width: 100%;
 }
 
-/* End contend CSS */
+/* End content CSS */
 /* --------------------------------------------------------------------------------------------- */
 /* CSS modal */
 /* Tạo lớp phủ cho thẻ div class modal*/
