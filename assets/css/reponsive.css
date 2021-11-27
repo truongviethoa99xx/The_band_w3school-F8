@@ -1,5 +1,5 @@
 /* Reponsive mobile */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
 
 
     .col-s-full, .s-full-width {
@@ -62,7 +62,7 @@
 }
 
 /* Reponsive mobile + tablet*/
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .btn {
         padding: 15px 16px;
     }
